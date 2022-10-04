@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* /* @media screen and (min-width:480px) {
+   
+    {
+        
+    }
+
+  */
+
+
+.cont-blue{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(45, 140, 255);
+    margin: auto;
+}
+
+.item-header{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+
+.all-main, p{
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.cont-sect{
+    width: 70%;
+    border-radius: 20px;
+    background-color: rgb(140, 188, 240);
+    margin: auto;
+}
+
+.contenuto{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.color-royal, #file-code {
+    color: rgb(45, 140, 255);
+}
+
+
+
+.button-blue{
+    color: white;
+    background-color: rgb(45, 140, 255);
+    border-radius: 15px;
+    border: none;
+    padding: 10px 60px;
+}
+
+#spacing {
+    letter-spacing: 2px;
+}
+
+.cont-img{
+    display: flex;
+    align-items: flex-end;
+}
+
+.phone, .cont-violet{
+    padding-top: 30px;
+    width: 100%;
+    margin: auto;
+}
+
+section{
+    margin-top: 40px;
+}
+
+#file-code{
+    margin-bottom: 30px;
+}
+
+p, .cont-violet{
+    padding-bottom: 30px;
+}
+
+.cont-violet{
+ background-color: #9493e0;
+ border-radius: 5px;
+}
+
+.planning-1, .planning-2{
+    width: 70% ;
+    margin: auto;
+    
+}
+
+.contenuto-sez{
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    padding-top: 30px;
+    color: white;
+}
+
+.color-pdd{
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.purple-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 100%;
+    background-color: #9493e0;
+}
+
+.cont-white{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.sez{
+    margin: auto;
+    width: 70%;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+#testimon{
+    font-size: 20px;
+}
+
+#apple, #linkedin,a{
+    margin-right: 5px;
+}
+
+.tit{
+    font-size: 40px;
+    font-weight: bold;
+    color:#9493e0;
+    padding: 30px 0px;
+    line-height: 40px;
+}
+
+.violet{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #9493e0;
+    padding: 30px 0px;
+    border-radius: 20px;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 100%;
+    background-image: url(../img/about.jpg);
+    background-size: 100%;
+}
+
+.txt-white, #p-about, #end-main, a{
+    color: white;
+}
+
+#nome,h3{
+    margin-top: 30px;
+}
+
+.numb{
+    font-size: 50px;
+}
+
+
+.container-numb{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 30px;
+    color: #9493e0;
+}
+
+.button-violet{
+    color: white;
+    background-color:#9493e0;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 60px;
+    margin: 20px 0px;
+}
+
+.cont-white-2{
+    width: 70%;
+    margin: auto;
+    text-align: lefts;
+}
+
+#tit-about{
+    font-size: 40px;
+    padding: 10px 0px;
+    color: #9493e0;
+}
+
+.circle-left{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-image: url(../img/about.jpg);
+    background-size: 100%;
+}
+
+#virgolette{
+    font-size: 50px;
+    color: #9493e0;
+    margin-bottom: 30px;
+}
+
+#h1-about{
+    color: #9493e0;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.cont-violet-2{
+    width: 100%;
+    background-color: #9493e0;
+    text-align: center;
+}
+
+#txt-ligth-gray{
+    color: rgb(240, 235, 235);
+    padding: 20px 0px;
+}
+
+#h1-white{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    line-height: 30px;
+}
+
+.contenitore{
+    margin: auto;
+    width: 80%;
+    padding-bottom: 20px, 0px;
+}
+
+#txt-yellow{
+    font-size: 50px;
+    padding: 30px 0px;
+    color: goldenrod;
+}
+
+#button-white{
+    color:#9493e0;
+    background-color:white;
+    border-radius: 15px;
+    border: none;
+    padding: 15px 80px;
+    letter-spacing: 3px;
+    margin: 20px 0px;
+}
+
+#end-main, a{
+    font-size: 10px;
+    padding-bottom: 20px ;
+}
+
+.cont-black{
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
+
+.txt-footer{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+
+.contenitore-footer{
+    margin: auto;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.footer-a{
+    color: #9493e0;
+}
